@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>web tootls</title>
+  <link href="reset.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>webアプリ</h1>
+  </header>
+  <main>
+    <div class="tools">
+      <div class="tool">
+        <a href="tools/timer/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/img timer.webp">
+          <p>タイマー</p>
+        </a>
+      </div>
+      <div class="tool">
+        <a href="tools/dataURL/">
+          <img src="./img/img dataurl.webp">
+          <p>ファイルをdataURLに変換</p>
+        </a>
+      </div>
+      <div class="tool">
+        <a href="tools/word count" target=”_blank”>
+          <img src="./img/img word-count.webp">
+          <p>文字数カウンター</p>
+        </a>
+      </div>
+      <div class="tool">
+        <a href="https://view-english.chakkun1121haru.repl.co/app/index.html" target=”_blank”>
+          <img src="./img/img view-english3.webp">
+          <p>和訳表示サイト</p>
+        </a>
+      </div>
+      <div class="tool">
+        <a href="/games" target=”_blank”>
+          <img src="./img/img games.webp">
+          <p>web games</p>
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-links">
+      <a>お知らせ</a>
+      <a>設定</a>
+    </div>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function (registration) {
+        // 登録成功
+        console.info('ServiceWorker の登録に成功しました。スコープ: ', registration.scope);
+      }).catch(function (err) {
+        // 登録失敗
+        console.error('ServiceWorker の登録に失敗しました。', err);
+      });
+    }
+  </script>
+
+</body>
+
+</html>
