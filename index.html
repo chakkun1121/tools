@@ -39,6 +39,19 @@
           <p>ビンゴ</p>
         </a>
       </div>
+       <div class="tool">
+        <a href="../web-camera/" target="_blank">
+          <img src="./img/img web-camera .webp">
+          <p>カメラアプリ</p>
+        </a>
+      </div>
+      <div class="tool">
+        <a href="../memo/" target="_blank">
+          <img src="./img/img memo.webp">
+          <p>メモアプリ</p>
+        </a>
+      </div>
+     
       <div class="tool">
         <a href="../games" target=”_blank”>
           <img src="../games/img/img games.webp">
@@ -53,18 +66,6 @@
       <a>設定</a>
     </div>
   </footer>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').then(function (registration) {
-        // 登録成功
-        console.info('ServiceWorker の登録に成功しました。スコープ: ', registration.scope);
-      }).catch(function (err) {
-        // 登録失敗
-        console.error('ServiceWorker の登録に失敗しました。', err);
-      });
-    }
-  </script>
-
 </body>
 
 </html>
