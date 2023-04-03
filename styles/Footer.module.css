@@ -1,0 +1,14 @@
+.footer {
+  background-color: #303f9f;
+  color: #fff;
+  list-style: none;
+}
+
+.links {
+  margin: 5px;
+  width: fit-content;
+}
+
+.link {
+  display: block;
+}
