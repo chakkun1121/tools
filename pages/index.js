@@ -16,7 +16,7 @@ export default function Home(apps) {
               className={styles["app-link"]}
             >
               <Image
-                src={`${app.imgPath}`}
+                src={`/${app.imgPath}`}
                 width={460}
                 height={260}
                 alt={`「${app.name}」の説明画像`}
