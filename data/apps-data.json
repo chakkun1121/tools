@@ -1,0 +1,39 @@
+{
+  "apps": [
+    {
+      "id": 0,
+      "name": "和訳表示サイト",
+      "path": "view-english",
+      "description": "和訳表示サイトは、自分だけの和訳ファイルを作成して、英語学習を効率的にサポートするサイトです。フラッシュカード機能を搭載し、日本語表示からクリックで英文表示！読み上げ対応で英語学習がより楽しくなります。外部に情報を送信せず、安全にご利用いただけます。",
+      "imgPath": "img/view-english.webp"
+    },
+    {
+      "id": 1,
+      "name": "ファイルをデータURLに変換",
+      "path": "dataURl",
+      "description": "任意のファイルをデータURLに変換します。ファイルは本体のみで処理するのでセキュリティー対策も完璧です。",
+      "imgPath": "img/img dataURl.webp"
+    },
+    {
+      "id": 2,
+      "name": "文字数カウント",
+      "path": "word-count",
+      "description": "文字数をカウントします。ただそれだけのアプリです。プログラミングの練習がてら作ったものです。",
+      "imgPath": "img/img word-count.webp"
+    },
+    {
+      "id": 3,
+      "name": "ビンゴ",
+      "path": "bingo",
+      "description": "web上でビンゴゲームを行うためのアプリです。ビンゴカードやビンゴマシーンなどがあります。イベント向けにカード一斉印刷メニューもあります。",
+      "imgPath": "img/img bingo.webp"
+    },
+    {
+      "id": 4,
+      "name": "カメラアプリ",
+      "path": "web-camera",
+      "description": "ブラウザで作動するカメラアプリです。写真の撮影以外にもスクリーンなどにカメラの映像を映すときにも使えます。写真やカメラの映像は外部に送信していません。",
+      "imgPath": "img/img web-camera.webp"
+    }
+  ]
+}

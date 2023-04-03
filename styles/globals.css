@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+}
+
+body>div {
+  min-height: 100vh;
+  /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+  position: relative;
+  /* ←相対位置 */
+  padding-bottom: 60px;
+  /* ←フッターの高さを指定 */
+  box-sizing: border-box;
+  /* ↑ヘッダーやフッターを含むすべての要素の高さ＝min-height:100vhになるように指定 */
+}
+
+header {
+  height: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+main {
+  min-height: calc(100vh - 110px);
+}
+
+footer {
+  height: 60px;
+  position: absolute;
+  /* ←絶対位置 */
+  bottom: 0;
+  left: 0;
+  right: 0
+}
