@@ -10,7 +10,7 @@
     {
       "id": 1,
       "name": "ファイルをデータURLに変換",
-      "path": "dataURl",
+      "path": "dataURL",
       "description": "任意のファイルをデータURLに変換します。ファイルは本体のみで処理するのでセキュリティー対策も完璧です。",
       "imgPath": "img/img dataURl.webp"
     },

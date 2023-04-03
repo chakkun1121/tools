@@ -11,7 +11,10 @@ export default function Home(apps) {
       <div className={styles.apps}>
         {appList.map((app) => (
           <div key={app.id} className={styles.app}>
-            <Link href={`../${app.path}`} className={styles["app-link"]}>
+            <Link
+              href={`https://chakkun1121.github.io/${app.path}`}
+              className={styles["app-link"]}
+            >
               <img
                 src={`/${app.imgPath}`}
                 width={460}
