@@ -1,7 +1,7 @@
 import Layout from "../components/mainLayout";
 import fsPromises from "fs/promises";
 import path from "path";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 export default function Home(apps) {
@@ -12,7 +12,7 @@ export default function Home(apps) {
         {appList.map((app) => (
           <div key={app.id} className={styles.app}>
             <Link href={`../${app.path}`} className={styles["app-link"]}>
-              <Image
+              <img
                 src={`/${app.imgPath}`}
                 width={460}
                 height={260}
