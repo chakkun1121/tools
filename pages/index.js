@@ -15,8 +15,8 @@ export default function Home(apps) {
               href={`https://chakkun1121.github.io/${app.path}`}
               className={styles["app-link"]}
             >
-              <Image
-                src={`/${app.imgPath}`}
+              <img
+                src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
                 width={460}
                 height={260}
                 alt={`「${app.name}」の説明画像`}
