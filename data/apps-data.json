@@ -34,6 +34,13 @@
       "path": "web-camera",
       "description": "ブラウザで作動するカメラアプリです。写真の撮影以外にもスクリーンなどにカメラの映像を映すときにも使えます。写真やカメラの映像は外部に送信していません。",
       "imgPath": "img/img web-camera.webp"
+    },
+    {
+      "id": 5,
+      "name": "webゲーム",
+      "path": "games",
+      "description": "chakkun1121が作成したwebゲームです。",
+      "imgPath": "img/img games.webp"
     }
   ]
 }
