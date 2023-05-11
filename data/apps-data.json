@@ -41,6 +41,13 @@
       "path": "games",
       "description": "chakkun1121が作成したwebゲームです。",
       "imgPath": "img/img games.webp"
+    },
+        {
+      "id": 6,
+      "name": "文字を拡大",
+      "path": "https://zoom-word.vercel.app/",
+      "description": "文字を拡大するだけのページです。漢字などの文字を拡大したいときに使ってください。",
+      "imgPath": "img/img zoom-word.webp"
     }
   ]
 }
