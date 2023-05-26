@@ -11,22 +11,38 @@ export default function Home(apps) {
       <div className={styles.apps}>
         {appList.map((app) => (
           <div key={app.id} className={styles.app}>
-            <Link
-              href={`https://chakkun1121.github.io/${app.path}`}
-              className={styles["app-link"]}
-            >
-              <img
-                src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
-                width={460}
-                height={260}
-                alt={`「${app.name}」の説明画像`}
-              />
-              <p>{app.name}</p>
-            </Link>
+            {
+              //絶対パス化を見分ける
+              app.path.includes("http") ? (
+                <a
+                  href={app.path}
+                  className={styles["app-link"]}
+                  target="_blank"
+                >
+                  <img
+                    src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
+                    width={460}
+                    height={260}
+                    alt={`「${app.name}」の説明画像`}
+                  /><p>{app.name}</p></a>) : (
+                <Link
+                  href={`https://chakkun1121.github.io/${app.path}`}
+                  className={styles["app-link"]}
+                >
+                  <img
+                    src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
+                    width={460}
+                    height={260}
+                    alt={`「${app.name}」の説明画像`}
+                  />
+                  <p>{app.name}</p>
+                </Link>
+              )
+            }
           </div>
         ))}
       </div>
-    </Layout>
+    </Layout >
   );
 }
 
