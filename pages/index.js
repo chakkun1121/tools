@@ -12,24 +12,25 @@ export default function Home(apps) {
         {appList.map((app) => (
           <div key={app.id} className={styles.app}>
             {
-              //絶対パス化を見分ける
               app.path.includes("http") ? (
+                // 絶対パスの場合
                 <a
                   href={app.path}
                   className={styles["app-link"]}
                   target="_blank"
                 >
                   <img
-                    src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
+                    src={`${app.path}/ogp.png`}
                     width={460}
                     height={260}
-                    alt={`「${app.name}」の説明画像`}
+                    alt={`${app.name}」の説明画像`}
                   /><p>{app.name}</p></a>) : (
+                // 相対リンク(https://chakkun1121.github.io/{app.path})の場合
                 <Link
                   href={`https://chakkun1121.github.io/${app.path}`}
                   className={styles["app-link"]}
                 >
-                  <img
+                  <Image
                     src={`https://chakkun1121.github.io/tools/${app.imgPath}`}
                     width={460}
                     height={260}
