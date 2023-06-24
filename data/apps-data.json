@@ -48,6 +48,14 @@
       "path": "https://zoom-word.vercel.app/",
       "description": "文字を拡大するだけのページです。漢字などの文字を拡大したいときに使ってください。",
       "imgPath": "img/img zoom-word.webp"
+    },
+            {
+      "id": 7,
+      "name": "QuizExam - 一問一答形式のクイズで試験本番の練習をしよう!",
+      "path": "https://quizexam.vercel.app/",
+      "description":"QuizExamは自分で一問一答形式などのクイズを作成し、自分で回答することで試験本番の練習をするアプリです。対応するクイズ形式は単純な一問一答形式、穴埋め、選択問題、並べ替えです。",
+      "imgPath": "img/img quizexam.webp"
+              
     }
   ]
 }
