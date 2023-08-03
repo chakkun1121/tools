@@ -36,7 +36,7 @@ jobs:
         run: |
           echo "manager=npm" >> $GITHUB_OUTPUT
           echo "command=i" >> $GITHUB_OUTPUT
-          echo "runner=npm" >> $GITHUB_OUTPUT
+          echo "runner=npx" >> $GITHUB_OUTPUT
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
