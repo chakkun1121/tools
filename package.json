@@ -7,9 +7,17 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "^13.4.7",
-    "pnpm": "^8.6.4",
+    "autoprefixer": "^10.4.14",
+    "next": "^13.4.12",
+    "pnpm": "^8.6.11",
+    "prettier-plugin-tailwindcss": "^0.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.6",
+    "@types/react": "18.2.18",
+    "tailwindcss": "^3.3.3"
   }
 }
