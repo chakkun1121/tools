@@ -13,8 +13,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return appList.map((app) => {
     return {
       url: app.path.startsWith("http")
-        ? app.path
-        : `https://chakkun1121.github.io/${app.path}`,
+        ? app.path.endsWith("/")
+          ? app.path
+          : app.path + "/"
+        : `https://chakkun1121.github.io/${app.path}/`,
     };
   });
 }
