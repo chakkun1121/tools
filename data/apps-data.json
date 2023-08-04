@@ -49,6 +49,12 @@
       "imgPath": "https://quizexam.vercel.app/img/quizexam.webp"
     },
     {
+      "name":"timer",
+      "path":"timer",
+      "description":"普通のwebタイマーです。プログラミングの練習がてら作ったので実用性はあまりありません。今度気が乗ったら改良します。",
+      "imgPath":"./img/timer.webp"
+    },
+    {
       "name": "blog",
       "path": "https://chakkun1121-blog.vercel.app?from=tools",
       "description": "chakkun1121のブログです(webアプリではありませんがここは制作物置き場なので...)",
