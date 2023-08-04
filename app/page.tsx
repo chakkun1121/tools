@@ -13,7 +13,7 @@ export default async function Home() {
   const appList: Array<appType> = data.apps;
   return (
     <section className="flex flex-col gap-12">
-      <h2>アプリ一覧</h2>
+      <h2>アプリ一覧(アプリ以外の制作物も含む)</h2>
       <div className="grid auto-rows-fr grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
         {appList.map((app, i) => (
           <div key={i} className="rounded bg-sea-300 p-4 ">

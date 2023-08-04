@@ -47,6 +47,30 @@
       "path": "https://quizexam.vercel.app/",
       "description": "QuizExamは自分で一問一答形式などのクイズを作成し、自分で回答することで試験本番の練習をするアプリです。対応するクイズ形式は単純な一問一答形式、穴埋め、選択問題、並べ替えです。",
       "imgPath": "https://quizexam.vercel.app/img/quizexam.webp"
+    },
+    {
+      "name": "blog",
+      "path": "https://chakkun1121-blog.vercel.app?from=tools",
+      "description": "chakkun1121のブログです(webアプリではありませんがここは制作物置き場なので...)",
+      "imgPath": "https://chakkun1121-blog.vercel.app/og.png"
+    },
+    {
+      "name": "typing",
+      "path": "typing",
+      "description": "タイピングゲーム(まあまあ雑ですが、お許しください。)",
+      "imgPath": "./img/typing.webp"
+    },
+    {
+      "name": "トレインシュミレーター",
+      "path": "train",
+      "description": "トレインシュミレーター",
+      "imgPath": "./img/train.png"
+    },
+    {
+      "name": "シューティングゲーム",
+      "path": "shooting",
+      "description": "シューティングゲーム(絶賛開発中)",
+      "imgPath": "./img/shooting.png"
     }
   ]
 }
