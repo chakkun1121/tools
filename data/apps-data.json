@@ -56,7 +56,7 @@
     },
     {
       "name": "blog",
-      "path": "https://chakkun1121-blog.vercel.app?from=tools",
+      "path": "https://chakkun1121-blog.vercel.app",
       "description": "chakkun1121のブログです(webアプリではありませんがここは制作物置き場なので...)",
       "imgPath": "https://chakkun1121-blog.vercel.app/og.png"
     },
