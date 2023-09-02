@@ -21,7 +21,7 @@ export default async function Home() {
               href={
                 app.path.includes("http")
                   ? app.path
-                  : `https://chakkun1121.github.io/${app.path}`
+                  : `https://chakkun1121.github.io/${app.path}/`
               }
               className="text-center text-black visited:text-black hover:no-underline"
               target="_blank"
