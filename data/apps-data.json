@@ -31,12 +31,6 @@
       "imgPath": "./img/web-camera.webp"
     },
     {
-      "name": "webゲーム",
-      "path": "games",
-      "description": "chakkun1121が作成したwebゲームです。",
-      "imgPath": "./img/games.webp"
-    },
-    {
       "name": "文字を拡大",
       "path": "zoom-word",
       "description": "文字を拡大するだけのページです。漢字などの文字を拡大したいときに使ってください。これはnextjs、muiとGoogleAnalyticsの学習がてら作成しました。",
