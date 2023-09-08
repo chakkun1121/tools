@@ -55,12 +55,6 @@
       "imgPath": "blog/og.png"
     },
     {
-      "name": "typing",
-      "path": "typing",
-      "description": "タイピングゲーム(まあまあ雑ですが、お許しください。)",
-      "imgPath": "./img/typing.webp"
-    },
-    {
       "name": "トレインシュミレーター",
       "path": "train",
       "description": "トレインシュミレーター",
