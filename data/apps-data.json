@@ -3,7 +3,7 @@
     {
       "name": "和訳表示サイト",
       "path": "view-english",
-      "description": "和訳表示サイトは、自分だけの和訳ファイルを作成して、英語学習を効率的にサポートするサイトです。フラッシュカード機能を搭載し、日本語表示からクリックで英文表示！読み上げ対応で英語学習がより楽しくなります。外部に情報を送信せず、安全にご利用いただけます。",
+      "description": "和訳表示サイトは、web上で自分だけの和訳ファイルを作成して、英語学習を効率的にサポートするサイトです。フラッシュカード(単語帳)機能を搭載し、日本語表示からクリックで英文表示。外部に情報を送信しないので、著作権やプライバシーを気にせず安全にご利用いただけます。",
       "imgPath": "https://chakkun1121.github.io/view-english/img/view-english.webp"
     },
     {
@@ -35,6 +35,12 @@
       "path": "zoom-word",
       "description": "文字を拡大するだけのページです。漢字などの文字を拡大したいときに使ってください。これはnextjs、muiとGoogleAnalyticsの学習がてら作成しました。",
       "imgPath": "./img/zoom-word.webp"
+    },
+    {
+      "name": "メモ帳",
+      "path": "notepad",
+      "description": "web上で使用できるメモ帳アプリです。",
+      "imgPath": "./img/notepad.png"
     },
     {
       "name": "QuizExam - 一問一答形式のクイズで試験本番の練習をしよう!",
