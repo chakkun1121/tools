@@ -7,13 +7,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const appsDataList: appType[] = await Promise.all(
     allAppEnNames.map(async (appEnName) => getAppData(appEnName)),
   );
-  return appsDataList.map((app) => {
-    return {
-      url: app.path.startsWith("http")
-        ? app.path.endsWith("/")
-          ? app.path
-          : app.path + "/"
-        : `https://chakkun1121.github.io/${app.path}/`,
-    };
-  });
+  return appsDataList
+    .map((app) => {
+      return [
+        {
+          url: app.path.startsWith("http")
+            ? app.path.endsWith("/")
+              ? app.path
+              : app.path + "/"
+            : `https://chakkun1121.github.io/${app.path}/`,
+        },
+        {
+          url: "https://chakkun1121.github.io/tools/" + app.enName,
+        },
+      ];
+    })
+    .flat();
 }
