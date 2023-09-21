@@ -5,7 +5,7 @@ export default function Header() {
     <header className="p-2">
       <Link
         className="text-heading-L text-black no-underline visited:text-black hover:no-underline"
-        href="/tools/"
+        href="/"
       >
         chakkun1121の制作物
       </Link>
