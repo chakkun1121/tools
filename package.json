@@ -1,23 +1,26 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3030",
     "build": "next build",
     "start": "next start",
     "export": "next export"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.14",
-    "next": "^13.4.12",
-    "pnpm": "^8.6.11",
-    "prettier-plugin-tailwindcss": "^0.5.2",
+    "autoprefixer": "^10.4.16",
+    "gray-matter": "^4.0.3",
+    "next": "^13.5.2",
+    "pnpm": "^8.7.6",
+    "prettier-plugin-tailwindcss": "^0.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^5.1.6"
+    "react-icons": "^4.11.0",
+    "react-markdown": "^8.0.7",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@types/node": "20.4.6",
-    "@types/react": "18.2.18",
+    "@types/node": "20.6.3",
+    "@types/react": "18.2.22",
     "tailwindcss": "^3.3.3"
   }
 }
