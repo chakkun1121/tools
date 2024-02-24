@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Footer from "./_components/footer";
 import Header from "./_components/header";
-import "./global.css";
+import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "webアプリ | chakkun1121",
