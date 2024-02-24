@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Footer from "./_components/footer";
 import Header from "./_components/header";
-import "./global.css";
+import "./globals.css";
 export const metadata: Metadata = {
   title: {
     default: "webアプリ | chakkun1121",
@@ -19,13 +19,7 @@ export default function Layout({ children }) {
     <html lang="ja" className="">
       <body className="flex min-h-screen flex-col">
         <Header />
-        <div className="mb-36 mt-14 w-full flex-grow px-6">
-          <div className="max-w-container mx-auto grid grid-cols-1 gap-8 sm:grid-cols-12">
-            <main className="gap-22 col-span-full flex flex-col">
-              {children}
-            </main>
-          </div>
-        </div>
+        <main className="flex-1 p-4">{children}</main>
         <Footer />
       </body>
     </html>
