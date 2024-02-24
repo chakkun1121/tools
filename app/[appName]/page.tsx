@@ -67,9 +67,11 @@ export default async function AppPage({
             </div>
           ))}
         </section>
-        <ReactMarkdown>
-          {appData.content.replace(/^---[\s\S]*?---/, "")}
-        </ReactMarkdown>
+        <section className="[&>ul>li]:list-inside [&>ul>li]:pl-2 [&>ul]:list-disc">
+          <ReactMarkdown>
+            {appData.content.replace(/^---[\s\S]*?---/, "")}
+          </ReactMarkdown>
+        </section>
       </>
     );
   } catch (error) {

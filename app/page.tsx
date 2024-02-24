@@ -15,7 +15,7 @@ export default async function Home() {
     allAppEnNames.map(async (appName) => getAppData(appName)),
   );
   return (
-    <section className="flex flex-col gap-12">
+    <>
       <h1>chakkun1121作成のアプリなどの作成物一覧</h1>
       <div className="grid auto-rows-fr grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
         {appDataList.map((appData, i) => (
@@ -56,6 +56,6 @@ export default async function Home() {
           </Card>
         ))}
       </div>
-    </section>
+    </>
   );
 }
