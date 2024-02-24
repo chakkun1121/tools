@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  robots:"noindex",
 };
 export default function Layout({ children }) {
   return (
