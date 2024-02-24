@@ -26,7 +26,6 @@ export default async function AppPage({
 }) {
   try {
     const appData = await getAppData(params.appName);
-    console.debug(appData);
     return (
       <>
         <section className="flex">
