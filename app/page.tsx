@@ -1,8 +1,7 @@
 import Link from "next/link";
 import { appType } from "../@types/appType";
-import Image from "./_components/image";
 import { getAppData } from "./_lib/getAppData";
-import { siteURL } from "./layout";
+import Image from "next/image";
 import { getAllAppEnNames } from "./_lib/getAllAppEnNames";
 export default async function Home() {
   const allAppEnNames: string[] = await getAllAppEnNames();
@@ -25,7 +24,7 @@ export default async function Home() {
                   appData.imgPath
                     ? appData.imgPath.startsWith("http")
                       ? appData.imgPath
-                      : `${siteURL}/apps/${appData.enName}/${appData.imgPath}`
+                      : `./apps/${appData.enName}/${appData.imgPath}`
                     : "./no-image.png"
                 }
                 width={480}

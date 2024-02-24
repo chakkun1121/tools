@@ -3,7 +3,6 @@ import NotFound from "../not-found";
 import { getAppData } from "../_lib/getAppData";
 import Link from "../_components/link";
 import ReactMarkdown from "react-markdown";
-import { siteURL } from "../layout";
 import { getAllAppEnNames } from "../_lib/getAllAppEnNames";
 export async function generateMetadata({
   params,
@@ -38,7 +37,7 @@ export default async function AppPage({
               src={
                 appData.iconPath.startsWith("http")
                   ? appData.iconPath
-                  : `${siteURL}/apps/${params.appName}/${appData.iconPath}`
+                  : `./apps/${params.appName}/${appData.iconPath}`
               }
             />
             <Link
@@ -62,7 +61,7 @@ export default async function AppPage({
                 src={
                   image.startsWith("http")
                     ? image
-                    : `${siteURL}/apps/${params.appName}/${image}`
+                    : `./apps/${params.appName}/${image}`
                 }
               />
             </div>
